@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pdb
+*.egg-info/
+
+# Entornos virtuales
+env/
+venv/
+ENV/
+.venv/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Archivos de configuración sensibles
+dotenv
+.env
+config/.env
+
+
+# Archivos de base de datos y datos generados
+*.sqlite3
+*.db
+# Ignorar solo el CSV generado, pero NO el original
+healthcare_dataset_cleaned.csv
+!healthcare_dataset.csv
+
+# No ignorar el notebook principal
+!solucion.ipynb
+
+# Archivos temporales y logs
+*.log
+*.tmp
+*.bak
+*.swp
+.DS_Store
+Thumbs.db
+
+# Carpeta de pruebas
+Prueba/
+
+# Otros
+*.zip
+*.tar.gz
+*.tar
+*.rar
+*.7z
+
+# VSCode
+.vscode/
